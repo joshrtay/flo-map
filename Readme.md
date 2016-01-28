@@ -27,7 +27,6 @@ wacky(function * () {
 function wackify (str) {
   return 'wacky ' + str
 }
-
 ```
 
 ## API
