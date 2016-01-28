@@ -1,0 +1,24 @@
+{
+  "name": "flom",
+  "description": "Flo map.",
+  "repository": "git://github.com/joshrtay/flom.git",
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "scripts": {
+    "prepublish": "make build",
+    "postpublish": "make clean",
+    "postversion": "git push && git push --tags && npm publish --access=public"
+  },
+  "dependencies": {
+    "@f/to-middleware": "^1.0.0",
+    "flob": "^1.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.4.0",
+    "babel-polyfill": "^6.3.14",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-register": "^6.3.13",
+    "tape": "^4.2.2"
+  }
+}
