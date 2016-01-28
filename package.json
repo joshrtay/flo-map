@@ -2,7 +2,7 @@
   "name": "flom",
   "description": "Flo map.",
   "repository": "git://github.com/joshrtay/flom.git",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "license": "MIT",
   "main": "lib/index.js",
   "scripts": {
