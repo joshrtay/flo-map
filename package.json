@@ -1,7 +1,7 @@
 {
-  "name": "flom",
+  "name": "flo-map",
   "description": "Flo map.",
-  "repository": "git://github.com/joshrtay/flom.git",
+  "repository": "git://github.com/joshrtay/flo-map.git",
   "version": "1.0.0",
   "license": "MIT",
   "main": "lib/index.js",
@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "@f/to-middleware": "^1.0.0",
-    "flob": "^1.0.0"
+    "flo-bind": "^1.0.1"
   },
   "devDependencies": {
     "babel-cli": "^6.4.0",

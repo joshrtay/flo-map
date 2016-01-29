@@ -2,11 +2,11 @@
  * Imports
  */
 
-import flob from 'flob'
+import flob from 'flo-bind'
 import toMiddleware from '@f/to-middleware'
 
 /**
- * flom
+ * flo-map
  */
 
 function flom (...fns) {

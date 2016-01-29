@@ -31,7 +31,7 @@ init:
 	@git init
 	@git add .
 	@git commit -am "FIRST"
-	@hub create joshrtay/flom -d "Flo map."
+	@hub create joshrtay/flo-map -d "Flo map."
 	@travis enable
 	@git push -u origin master
 
